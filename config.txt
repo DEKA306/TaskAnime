@@ -1,0 +1,35 @@
+cpu:intel
+--intel / ryzen / custom
+
+gpu:nvidia
+--nvidia / radeon / custom
+
+ram:16gb
+--4gb / 8gb / 16gb / 32gb / 64gb / custom
+
+custom:custom
+-- (File name).png
+custom_speed:100
+-- (ms)
+
+network:lan
+--lan / wifi / custom
+
+x_pos:2150
+y_pos:1300
+--set img's position
+
+x_size:16
+y_size:32
+--set base img size
+
+speed:100
+--set multiple speed
+
+distance:10
+--set each img's distance
+
+scale:3
+--set img's scale
+
+order:cpu gpu ram network custom
